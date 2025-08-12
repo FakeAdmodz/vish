@@ -193,11 +193,11 @@ AcceptButton.MouseButton1Click:Connect(function() notify("Auto accept triggered!
 local CreditLabel = Instance.new("TextLabel")
 CreditLabel.Text = "Tiktok: @itss_hiroshi"
 CreditLabel.Font = Enum.Font.GothamBold
-CreditLabel.TextSize = 13
+CreditLabel.TextSize = 15
 CreditLabel.TextColor3 = Color3.fromRGB(180, 180, 180)
 CreditLabel.BackgroundTransparency = 1
 CreditLabel.Size = UDim2.new(1, 0, 0, 20)
-CreditLabel.Position = UDim2.new(0, 0, 1, -38)
+CreditLabel.Position = UDim2.new(0, 0, 1, -44)
 CreditLabel.TextXAlignment = Enum.TextXAlignment.Center
 CreditLabel.Parent = MainFrame
 
@@ -205,11 +205,11 @@ CreditLabel.Parent = MainFrame
 local TikTokBtn = Instance.new("TextButton")
 TikTokBtn.Text = "Copy Link"
 TikTokBtn.Font = Enum.Font.GothamBold
-TikTokBtn.TextSize = 13
+TikTokBtn.TextSize = 15
 TikTokBtn.TextColor3 = Color3.fromRGB(180, 180, 180)
 TikTokBtn.BackgroundTransparency = 1
 TikTokBtn.Size = UDim2.new(1, 0, 0, 20)
-TikTokBtn.Position = UDim2.new(0, 0, 1, -22)
+TikTokBtn.Position = UDim2.new(0, 0, 1, -25)
 TikTokBtn.TextXAlignment = Enum.TextXAlignment.Center
 TikTokBtn.Parent = MainFrame
 
